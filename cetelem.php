@@ -988,7 +988,7 @@ class Cetelem extends PaymentModule implements WidgetInterface {
 //    }
     $payment_text = $this->l('Finance with Cetelem');
     //if ($mode == 'G') {
-    $material = '455';
+    $material = '451';
     if ($this->hasSpecialMaterial()) {
       $material = '333';
     }
@@ -1007,7 +1007,7 @@ class Cetelem extends PaymentModule implements WidgetInterface {
                   'Material' => [
                       'name' => 'Material',
                       'type' => 'hidden',
-                      'value' => $fields['bike_material'] ? $fields['bike_material'] : $material,//'455',
+                      'value' => $fields['bike_material'] ? $fields['bike_material'] : $material,//'451',
                   ]
                   ,
                   'CodigoMarca' => [

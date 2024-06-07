@@ -47,7 +47,7 @@
 
         <form action="{$conex_url}" method="post" name="cetelem_form" id="cetelem_form">
             <input type="hidden" name="COMANDO" value="INICIO" />
-            <input type="hidden" name="Material" value="451" />
+            <input type="hidden" name="Material" value="499" />
             {*if $mode == 'G'}
                 <input type="hidden" name="CodProducto" value="PMG" />
             {else}
